@@ -9,26 +9,81 @@
 </head>
 <body>
     <div class="container">
-    <header id="header">
-        <img id ="header-img" src="logo.jpg" alt="logo">
-        <nav id="nav-bar">
-            <li><a class="nav-link" href="#">Menu</a></li>
-            <li><a class="nav-link" href="#">Menu</a></li>
-            <li><a class="nav-link" href="#">Menu</a></li>
-        </nav>
-    </header>
-    <section class="media">
-        <iframe id="video" width="520" height="315"
-             src="https://www.youtube.com/embed/tgbNymZ7vqY">
-        </iframe> 
-    </section>
-    <div class="submit">
-        <p>Subscribe us for more info</p>
+        <header id="header"> 
+            <div class="logo">
+                <img id="header-img" src="https://cdn.logo.com/hotlink-ok/logo-social-sq.png" alt="logo">
+            </div>
+            <nav id="nav-bar">
+                <ul class="nav-ul">
+                    <li><a class="nav-link" href="#">Home</a></li>
+                    <li><a class="nav-link" href="#services">Services</a></li>
+                    <li><a class="nav-link" href="#how-to-buy">How to buy</a></li>
+                    <li><a class="nav-link" href="#">Subscribe</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="services" class="services">
+            <h1>Our Services</h1>
+            <div class="service-grid">
+                <div class="service-box">
+                    <img src="https://images.ctfassets.net/ztqkislsfsqt/7areQ8i74hO8R9a79M8uSk/9ab5d7f8c8785880971adb93ba7e2b5a/SharedHosting-Yellow.svg" alt="shared">
+                    <h2>Shared hosting</h2>
+                    <p>Easy, affordable, and includes a free domain for a year. Score!</p>
+                    <span>Starts at</span>
+                    <p class="price">$2.75/mo*</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="service-box">
+                    <img src="https://images.ctfassets.net/ztqkislsfsqt/7uDEVu0NoOhlX5yGdzPbd1/aa691b03e97ffbbd459cb56122efe135/WebsiteBuilderIcon.svg" alt="shared">
+                    <h2>Shared hosting</h2>
+                    <p>Easy, affordable, and includes a free domain for a year. Score!</p>
+                    <span>Starts at</span>
+                    <p class="price">$2.75/mo*</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="service-box">
+                    <img src="https://images.ctfassets.net/ztqkislsfsqt/7MTEG0tWjev8NvABtpk4sg/272135cceb13bb39b1994429453ba539/WordPressIcon-Blue.svg" alt="shared">
+                    <h2>Shared hosting</h2>
+                    <p>Easy, affordable, and includes a free domain for a year. Score!</p>
+                    <span>Starts at</span>
+                    <p class="price">$2.75/mo*</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="service-box">
+                    <img src="https://images.ctfassets.net/ztqkislsfsqt/6NLp80tcj1PDUDFwBp6KG1/256f23a0fac3e654945937c453a425b2/DedicatedIcon.svg" alt="shared">
+                    <h2>Shared hosting</h2>
+                    <p>Easy, affordable, and includes a free domain for a year. Score!</p>
+                    <span>Starts at</span>
+                    <p class="price">$2.75/mo*</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="service-box">
+                    <img src="https://images.ctfassets.net/ztqkislsfsqt/5yNIUBbJrAyKUIgEVhfcSw/1a540cb143dcfbf339c8d17f7d677a7d/VPSIcon.svg" alt="shared">
+                    <h2>Shared hosting</h2>
+                    <p>Easy, affordable, and includes a free domain for a year. Score!</p>
+                    <span>Starts at</span>
+                    <p class="price">$2.75/mo*</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <section id="how-to-buy" class="video">
+            <h2>How to Buy</h2>
+            <iframe id="video" width="520" height="315"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe> 
+        </section>
+        <section id="sub" class="subscribe"> 
+            <h2>Subscribe</h2>
+            <p>Subscribe us for more info</p>
         <form id="form" action="">
-            <input type="email" id="email" placeholder="Enter your email">
-            <button id="submit" type="submit" formaction="https://www.freecodecamp.com/email-submit">Submit to another page</button>   
+            <input type="email" id="email" placeholder="Enter your email"><br>
+            <button id="submit" type="submit" formaction="https://www.freecodecamp.com/email-submit">Subscribe</button>   
         </form>
+        </section>
+        <footer class="footer">
+            <p>Copyright 2016, Original Trombones</p>
+        </footer>
     </div>
-</div>
 </body>
 </html>
