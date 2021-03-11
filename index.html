@@ -18,7 +18,7 @@
                     <li><a class="nav-link" href="#">Home</a></li>
                     <li><a class="nav-link" href="#services">Services</a></li>
                     <li><a class="nav-link" href="#how-to-buy">How to buy</a></li>
-                    <li><a class="nav-link" href="#">Subscribe</a></li>
+                    <li><a class="nav-link" href="#sub">Subscribe</a></li>
                 </ul>
             </nav>
         </header>
@@ -69,16 +69,19 @@
         </section>
         <section id="how-to-buy" class="video">
             <h2>How to Buy</h2>
-            <iframe id="video" width="520" height="315"
+            <div class="video-box">
+                <iframe id="video" width="520" height="315"
                 src="https://www.youtube.com/embed/tgbNymZ7vqY">
             </iframe> 
+            </div>
+           
         </section>
         <section id="sub" class="subscribe"> 
             <h2>Subscribe</h2>
             <p>Subscribe us for more info</p>
-        <form id="form" action="">
-            <input type="email" id="email" placeholder="Enter your email"><br>
-            <button id="submit" type="submit" formaction="https://www.freecodecamp.com/email-submit">Subscribe</button>   
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" name="email" id="email" placeholder="Enter your email"><br>
+            <input type="submit" id="submit" type="submit" value="Subscribe"> 
         </form>
         </section>
         <footer class="footer">
