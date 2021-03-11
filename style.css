@@ -135,6 +135,9 @@ iframe{
 
 
 @media (max-width: 750px){
+    .container{
+        width: 100%;
+    }
     .nav-ul{
         flex-direction: column;
     }
