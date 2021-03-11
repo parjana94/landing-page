@@ -138,6 +138,9 @@ iframe{
     .container{
         width: 100%;
     }
+    .header{
+        width: 100%;
+    }
     .nav-ul{
         flex-direction: column;
     }
